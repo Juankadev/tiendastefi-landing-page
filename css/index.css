@@ -58,19 +58,27 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
 .container > .container.inicio{
     padding: .4rem;
+    margin-top: -2rem;
 }
+.container > .container.descripcion{
+    padding: .4rem;
+}
+
 .container.inicio img{
     width: 100%;
     display: block;
     margin: 0 auto;
 }
-h1{
+h1,h2{
     color:#FFF;
     text-transform: uppercase;
     font-family: title;
     text-align: center;
+}
+h1{
     font-size: 2rem;
 }
 p{
@@ -80,3 +88,15 @@ p{
     font-size: 1.3rem;
     font-family: subtitle;
 }
+section{
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.whatsapp{
+    padding-top: 1rem;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
