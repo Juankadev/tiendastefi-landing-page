@@ -1,0 +1,30 @@
+@font-face {
+    font-family: logo;
+    src: url(/ArturoHeavy.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CB6CE6;
+}
+.container.inicio img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+h1{
+    color:#FFF;
+    text-transform: uppercase;
+    font-family: logo;
+    text-align: center;
+}
+p{
+    color:#FFDE59;
+    text-align: center;
+}
