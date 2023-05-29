@@ -429,15 +429,15 @@
 body{
     width: 100%;
     background-color: #CB6CE6;
+    overflow-x: hidden;
+    touch-action: pan-y;
 }
 
 .bg-image{
     z-index: -1;
     background-image: url(../img/patron.png);
     background-repeat: repeat;
-}
-.bg-image:before{
-    opacity: 0.6;
+    width: 100%;
 }
 
 .container .container.inicio{
@@ -446,10 +446,6 @@ body{
     display: flex;
     flex-direction: column;
     /*justify-content: center;*/
-}
-
-section{
-    padding: 1rem;
 }
 
 .container img{
@@ -477,6 +473,7 @@ p{
     font-family: subtitle;
 }
 section{
+  padding: 1rem;
     width: 100%;
     margin-bottom: 3rem;
 }
