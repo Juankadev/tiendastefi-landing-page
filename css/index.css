@@ -429,8 +429,8 @@
 body{
     width: 100%;
     background-color: #CB6CE6;
-    overflow-x: hidden;
-    touch-action: pan-y;
+    /* overflow-x: hidden;
+    touch-action: pan-y; */
 }
 
 .bg-image{
@@ -460,16 +460,16 @@ h1,h2{
     text-align: center;
 }
 h1{
-    font-size: 3.4rem;
+    font-size: 2.7rem;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 p{
     margin-top: 1rem;
     color:#FFF;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: subtitle;
 }
 section{
@@ -485,7 +485,7 @@ a.hablemos{
     text-align: center;
     text-decoration: none;
     color: #FFF;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: subtitle;
 }
